@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | PremiumRides</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        .about-hero {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1600');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .about-content {
+            padding: 80px 0;
+        }
+        
+        .about-text {
+            color: #999;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .about-text h3 {
+            color: #FFD700;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .value-box {
+            background: #111;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid rgba(255,215,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .value-box:hover {
+            transform: translateY(-10px);
+            border-color: #FFD700;
+            box-shadow: 0 10px 30px rgba(255,215,0,0.1);
+        }
+        
+        .value-box i {
+            font-size: 3rem;
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+        
+        .value-box h4 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        
+        .value-box p {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-motorcycle"></i> PREMIUM<span style="color: #FFD700;">RIDES</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bikes.html">BIKES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <section class="about-hero">
+        <div class="container">
+            <h1 data-aos="fade-down">About PremiumRides</h1>
+            <p class="lead" data-aos="fade-down" data-aos-delay="100">Redefining the motorcycle experience since 2010</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3>Our Story</h3>
+                    <p class="about-text">PremiumRides was founded with a single vision: to provide motorcycle enthusiasts with access to the world's finest machines. What began as a passion project has grown into one of the most prestigious motorcycle showrooms, representing over 50 premium brands.</p>
+                    <p class="about-text">We believe that a motorcycle is more than just a vehicle – it's an expression of freedom, craftsmanship, and the thrill of the open road. Every bike in our collection is carefully selected for its exceptional quality, performance, and design.</p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800" alt="Premium Showroom" class="img-fluid rounded" style="border-radius: 15px; border: 2px solid rgba(255,215,0,0.3);">
+                </div>
+            </div>
+
+            <!-- Values - NO TEAM SECTION -->
+            <div class="section-title" data-aos="fade-up">
+                <span class="subtitle">OUR VALUES</span>
+                <h2>What Drives Us</h2>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="value-box">
+                        <i class="fas fa-gem"></i>
+                        <h4>Excellence</h4>
+                        <p>We curate only the finest motorcycles, ensuring every bike meets our strict standards of quality and performance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="value-box">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Integrity</h4>
+                        <p>Honest, transparent dealings with every customer. Your trust is our most valuable asset.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="value-box">
+                        <i class="fas fa-heart"></i>
+                        <h4>Passion</h4>
+                        <p>We live and breathe motorcycles. This passion drives us to provide the best experience possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h5>PREMIUMRIDES</h5>
+                    <p style="color: #999;">Your trusted destination for luxury motorcycles since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>QUICK LINKS</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bikes.html">Bikes</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>CONTACT</h5>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Luxury Lane, CA</li>
+                        <li><i class="fas fa-phone me-2"></i> +1 (888) 555-0123</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@premiumrides.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>HOURS</h5>
+                    <ul class="footer-links">
+                        <li>Mon-Fri: 9am - 8pm</li>
+                        <li>Sat: 10am - 6pm</li>
+                        <li>Sun: 12pm - 5pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 PremiumRides. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
